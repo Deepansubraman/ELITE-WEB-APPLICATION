@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="head1">BOOKSKEY</h1>
+
+
+    <div id="bookFormModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h2>Add a Book</h2>
+            <form id="bookForm">
+                <label for="bookName">Book Name:</label>
+                <input type="text" id="bookName" required><br>
+                <label for="authorName">Author:</label>
+                <input type="text" id="authorName" required><br>
+                <label for="aboutBook">About the Book:</label>
+                <textarea id="aboutBook" required></textarea><br>
+                <button type="button" onclick="addBook()">Add Book</button>
+            </form>
+        </div>
+    </div>
+    <div id="bookList" class="book-list"></div>
+    <div class="book-item">
+        <h3>Book Name</h3>
+        <p><strong>Author:</strong> Author Name</p>
+        <p>About the book...</p>
+        <button class="delete-btn" onclick="deleteBook(this)">Delete</button>
+    </div>
+    <button class="btn" onclick="showForm()">+</button>4
+    
+</body>
+</html>
