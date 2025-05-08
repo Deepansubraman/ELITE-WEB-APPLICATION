@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="body1" >
+    <div class="color">
+    </div>
+    <div class="one">
+    <button onclick="changecolor()">Change Color</button>
+</div>
+    <div class="one">
+    <h2>Type here</h2>
+    <div class="input">
+        <input type="text" id="input" onkeyup="update()">
+    </div>
+    <h1 id="result"></h1>
+    </div>
+
+
+    <div class="one">
+    <h2>who won ipl 2025</h2>
+    <button onclick="repeat()">GUESS</button>
+    <h1 id="exil"></h1>
+</div>
+
+    
+    <div class="one">
+    <h1>Click Your fav IPL Team</h1>
+    <h2 id="ipl"></h1>
+    <button onclick="team(event)">RCB</button>
+    <button onclick="team(event)">CSK</button>
+    <button onclick="team(event)">MI</button>
+</div>
+
+        <div class="one">
+    <h2 class="iplteam" onclick="up(event)"> csk </h3>
+    <h2 class="iplteam" onclick="up(event)"> rcb</h3>
+    <h2 class="iplteam"onclick="up(event)">mi</h2>
+    </div>
+
+
+    <div class="one">
+    <input type="text" id="name" placeholder="Enter the text">
+    <button onclick="addList()">ADD</button>
+    <ul id="list" style="font-size:1em;"></ul>
+    </div>
+
+    <div class="one">
+    <h2>Touch Mee 👇</h2>
+    <button id="three">show</button>
+    </div>
+
+    <div class="one">
+        <h2>Guess The Number</h2>
+        <input type="number" id="guess" placeholder="0 to 10">
+        <button onclick="guess()">Guess</button>
+        <h4 id="result1">This is Right Or Wrong</h4>
+        <h3 id="guess1">remaining guesses:10</h3>
+    </div>
+</div>
+</div>
+</body>
+</html>

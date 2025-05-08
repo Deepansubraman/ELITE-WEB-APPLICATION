@@ -1,0 +1,122 @@
+      /* General styles */
+      body {
+        text-align: center;
+    }
+    
+    .body1 {
+        background-color: rgb(28, 1, 35);
+    }
+    
+    .color {
+        background-color: rgb(163, 200, 198);
+        margin: 0 auto;
+        width: 200px;
+        height: 100px;
+        transition: 2s;
+    }
+    
+    button {
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 5px 20px;
+        color: rgb(7, 7, 7);
+        background-color: rgb(34, 125, 89);
+        border-color: aliceblue;
+    }
+    
+    button:hover {
+        background-color: rgb(163, 209, 226);
+        color: black;
+        transition: all 0.4s ease;
+    }
+    
+    .input {
+        margin-top: 20px;
+    }
+    
+    #result {
+        color: seagreen;
+    }
+    
+    .iplteam {
+        cursor: pointer;
+        gap: 30px;
+    }
+    
+    .ganap {
+        display: flex;
+        justify-content: center;
+        transition: all 0.5s ease;
+        
+    }
+    
+    .iplteam:hover {
+        color: red;
+        font-size: 30px;
+        transition: all 0.3s ease;
+    }
+    
+    .one {
+        background-color: aliceblue;
+        margin: 20px auto;
+        border-radius: 30px;
+        padding: 20px 10px;
+        max-width: 800px;
+        width: 400px;
+        font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+        .color {
+            width: 150px;
+            height: 80px;
+        }
+    
+        button {
+            padding: 5px 15px;
+            font-size: 0.9em;
+        }
+    
+        .ganap {
+            flex-direction: column;
+            padding: 10px;
+        }
+    
+        .iplteam:hover {
+            font-size: 25px;
+        }
+    
+        .one {
+            padding: 15px 5px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .color {
+            width: 100px;
+            height: 60px;
+        }
+    
+        button {
+            padding: 5px 10px;
+            font-size: 0.8em;
+        }
+    
+        .ganap {
+            margin: 10px auto;
+            padding: 5px;
+        }
+    
+        .iplteam:hover {
+            font-size: 20px;
+        }
+    
+        .one {
+            padding: 10px 5px;
+        }
+    }
+
+    .alertclick:hover{
+        background-color: sandybrown;
+        transition: all 4s ease;
+    }
